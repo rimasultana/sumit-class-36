@@ -1,14 +1,5 @@
-// const cars = ["a","b","c","d","e"];
+const numbers = [ 1, 4, 5, 34, 5];
 
-// for(let i = 0; i < cars.length; i++){
-//     console.log(i);
-// }
-// console.log("i am done")
-
-
-const person = {froll: 34; faddress: "MYmensingh";
-}
-
-for(let x in person) {
-    console.log(person);
+for (let number in numbers) {
+    console.log(numbers[number]);
 }
