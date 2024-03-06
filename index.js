@@ -1,6 +1,14 @@
-const cars = ["a","b","c","d","e"];
+// const cars = ["a","b","c","d","e"];
 
-for(let i = 0; i < cars.length; i++){
-    console.log(i);
+// for(let i = 0; i < cars.length; i++){
+//     console.log(i);
+// }
+// console.log("i am done")
+
+
+const person = {froll: 34; faddress: "MYmensingh";
 }
-console.log("i am done")
+
+for(let x in person) {
+    console.log(person);
+}
